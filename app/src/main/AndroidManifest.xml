@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hliasbalampanis.cards_counter">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="Cards Counter"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activityPack.MainActivity"
+            android:label="Cards Counter">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activityPack.DilotiActivity"
+            android:label="Cards Counter - Δηλωτή" />
+        <activity
+            android:name=".activityPack.MpirimpaActivity"
+            android:label="Cards Counter - Μπιρίμπα" />
+        <activity
+            android:name=".activityPack.TichuActivity"
+            android:label="Cards Counter - Tichu" />
+        <activity android:name=".activityPack.DilotiRules" />
+        <activity android:name=".activityPack.TichuRules" />
+        <activity android:name=".activityPack.InitializeDiloti" />
+    </application>
+
+</manifest>

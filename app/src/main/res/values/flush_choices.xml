@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="flush_choices">
+        <item>Σπαθί</item>
+        <item>Μπαστούνι</item>
+        <item>Καρδιά</item>
+        <item>Καρό</item>
+    </string-array>
+</resources>
